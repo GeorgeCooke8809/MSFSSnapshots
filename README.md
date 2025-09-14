@@ -26,8 +26,8 @@ Having installed the prerequisites, the file "Flight_Sim_Snapshots.py" can be do
 This tool can be used to take snapshots of your current position and speed to be restored later. This can be useful for saving before a critical phase of flight or when practicing landings if you don't want to have to set things up again or go through the whole flight again should things not go to plan.
 
 Below is a screenshot of the tool:
-<img width="402" height="182" alt="image" src="https://github.com/user-attachments/assets/a865e1d2-12be-443c-90ae-1efa72af49b1" />
 
+<img width="402" height="182" alt="image" src="https://github.com/user-attachments/assets/a865e1d2-12be-443c-90ae-1efa72af49b1" />
 
 To save your location, press the "Save Position" button. Having already saved a position, you can press the "Load Last Position Button" to reestore your saved position.
 
