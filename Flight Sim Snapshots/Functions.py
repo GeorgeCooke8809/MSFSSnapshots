@@ -13,8 +13,9 @@ class snapshot:
         self.pitch = aq.get("PLANE_PITCH_DEGREES")
         self.roll = aq.get("PLANE_BANK_DEGREES")
         self.flaps = aq.get("FLAP_POSITION_SET")
-        #endinges acceleration
-        print("Snapshot Saved")
+        #TODO: Engines %
+        #TODO: Acceleration Vectors
+        #DEBUG - print("Snapshot Saved")
 
 def save_location():
     global snapshot_one
@@ -33,7 +34,7 @@ def set_location():
         aq.set("PLANE_BANK_DEGREES", snapshot_one.roll)
         aq.set("FLAP_POSITION_SET", snapshot_one.flaps)
 
-        print("Snapshot Enacted")
+        #DEBUG - print("Snapshot Enacted")
 
     except:
-        print("No Snapshot Was Saved")
+        #DEBUG - print("No Snapshot Was Saved")
