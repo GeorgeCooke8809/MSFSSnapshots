@@ -10,3 +10,5 @@ while True:
         Functions.save_location()
     elif choice == "2":
         Functions.set_location()
+
+#This is some test code
