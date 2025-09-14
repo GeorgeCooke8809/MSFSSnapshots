@@ -15,6 +15,9 @@ Should that fail, the following alternatives can be used:
 ```
 python3 -m pip install SimConnect
 ```
+```
+py -m pip install SimConnect
+```
 
 ```
 pip3 install SimConnect
