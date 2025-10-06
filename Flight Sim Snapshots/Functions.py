@@ -17,7 +17,7 @@ class snapshot:
         #TODO: Acceleration Vectors
         #DEBUG - print("Snapshot Saved")
 
-def save_location():
+def save_location(): # TODO - Unnecessary?
     global snapshot_one
 
     snapshot_one = snapshot()
@@ -37,4 +37,5 @@ def set_location():
         #DEBUG - print("Snapshot Enacted")
 
     except:
+        pass
         #DEBUG - print("No Snapshot Was Saved")
