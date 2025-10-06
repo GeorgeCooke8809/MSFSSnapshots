@@ -17,7 +17,7 @@ class snapshot:
         #TODO: Acceleration Vectors
         #DEBUG - print("Snapshot Saved")
 
-def save_location(): # TODO - Unnecessary?
+def save_location(): # TODO - Unnecessary? Nest this and set location within snapshots and make init call to this
     global snapshot_one
 
     snapshot_one = snapshot()
